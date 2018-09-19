@@ -6,10 +6,11 @@ class Wsumicroservices < Formula
   version "2018-09-19"
   sha256 "c9ca76e4a389d6f4c564b00c5005a8e77e9a5cb005a3ef446c88a307c2abe3fd"
   head "https://github.com/WSU-CDSC/microservices.git"
-  revision 1
+  revision 2
   
   depends_on "hashdeep"
   depends_on "bagit"
+  depends_on "exiftool"
   
   def install
     bin.install "aip2b2.rb"
