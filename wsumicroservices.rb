@@ -7,6 +7,8 @@ class Wsumicroservices < Formula
   sha256 "add7632109e14c2bc6af1824cc648fbd9edf45d8a0d5091f564b68d4d2c7168c"
   head "https://github.com/WSU-CDSC/microservices.git"
   
+  revision 1
+  
   depends_on "hashdeep"
   depends_on "bagit"
   depends_on "exiftool"
@@ -14,7 +16,7 @@ class Wsumicroservices < Formula
   def install
     bin.install "aip2b2.rb"
     bin.install "makeaip.rb"
-    bin.install "vid2watson.sh"
+    bin.install "vid2watson.rb"
     bin.install "watson2vtt.rb"
   end
 end
