@@ -2,13 +2,11 @@ require "formula"
 class Wsumicroservices < Formula
   desc "Microservices used in digital preservation at Washington State University"
   homepage ""
-  url "https://github.com/WSU-CDSC/microservices/archive/2019-01-29.tar.gz"
-  version "2019-01-29"
-  sha256 "add7632109e14c2bc6af1824cc648fbd9edf45d8a0d5091f564b68d4d2c7168c"
+  url "https://github.com/WSU-CDSC/microservices/archive/2019-02-05.tar.gz"
+  version "2019-02-05"
+  sha256 "f7545f37c6d33844f7500dfab5561a86cb4ab9a6c659c11171057f0f12d23b5d"
   head "https://github.com/WSU-CDSC/microservices.git"
-  
-  revision 1
-  
+
   depends_on "hashdeep"
   depends_on "bagit"
   depends_on "exiftool"
@@ -18,5 +16,6 @@ class Wsumicroservices < Formula
     bin.install "makeaip.rb"
     bin.install "vid2watson.rb"
     bin.install "watson2vtt.rb"
+    bin.install "caption-crunch.sh"
   end
 end
