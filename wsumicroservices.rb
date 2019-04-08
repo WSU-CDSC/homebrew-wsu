@@ -2,9 +2,9 @@ require "formula"
 class Wsumicroservices < Formula
   desc "Microservices used in digital preservation at Washington State University"
   homepage ""
-  url "https://github.com/WSU-CDSC/microservices/archive/2019-02-08.tar.gz"
-  version "2019-02-08"
-  sha256 "45f37c3531d2b4f9e3c31df2f1ad8fec5900170b2c2bde9401a575e6d6e23f78"
+  url "https://github.com/WSU-CDSC/microservices/archive/2019-04-08.tar.gz"
+  version "2019-04-08"
+  sha256 "cf57a6d80a3fd4be6524c136dd570410fb4ca04feb4fdda06b5959efd75371a3"
   head "https://github.com/WSU-CDSC/microservices.git"
 
   depends_on "hashdeep"
