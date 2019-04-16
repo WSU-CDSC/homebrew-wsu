@@ -6,7 +6,7 @@ class Wsumicroservices < Formula
   version "2019-04-08"
   sha256 "cf57a6d80a3fd4be6524c136dd570410fb4ca04feb4fdda06b5959efd75371a3"
   head "https://github.com/WSU-CDSC/microservices.git"
-  revision 2
+  revision 3
 
   depends_on "hashdeep"
   depends_on "bagit"
@@ -23,6 +23,5 @@ class Wsumicroservices < Formula
     bin.install "extsurvey.rb"
     bin.install "wsu-functions.rb"
     bin.install "wsu-microservices.config"
-    
   end
 end
